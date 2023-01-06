@@ -1,10 +1,11 @@
-import React from 'react'
-const Post = () => {
-    return (
-        <div className="post">
+import React from "react";
+const Post = ({ title, body }) => {
+  return (
+    <div className="post">
+      <h3>{title}</h3>
+      <p>{body}</p>
+    </div>
+  );
+};
 
-        </div>
-    )
-}
-
-export { Post }
+export { Post };
